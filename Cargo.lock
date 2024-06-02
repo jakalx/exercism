@@ -3,6 +3,13 @@
 version = 3
 
 [[package]]
+name = "anagram"
+version = "0.0.0"
+dependencies = [
+ "hashbag",
+]
+
+[[package]]
 name = "armstrong_numbers"
 version = "1.1.0"
 
@@ -29,6 +36,12 @@ version = "2.0.0"
 dependencies = [
  "time",
 ]
+
+[[package]]
+name = "hashbag"
+version = "0.1.12"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "98f494b2060b2a8f5e63379e1e487258e014cee1b1725a735816c0107a2e9d93"
 
 [[package]]
 name = "lucians-luscious-lasagna"
